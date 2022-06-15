@@ -1,6 +1,6 @@
 # React-Native-exersice
 
-This repo consists of working code that consists of UI interfaces, data displayed is read from a local Json file. 
+This repo consists of working front-end code , data displayed is read from a local Json file. 
 
 UI Gif: 
 
