@@ -1,0 +1,44 @@
+[
+    {
+      "orderID": 1,
+      "orderStatus": "Cancelled",
+      "pharmacyName": "Admin (avail. Mon-Sat, 9am-5pm)",
+      "orderTotal": 107.32
+    },
+    {
+      "orderID": 2,
+      "orderStatus": "Submitted",
+      "pharmacyName": "Selgo pharmacy & clinic",
+      "orderTotal": 184.88
+    },
+    {
+      "orderID": 3,
+      "orderStatus": "Cancelled",
+      "pharmacyName": "Protea Glen Family Pharmacy",
+      "orderTotal": 355.37
+    },
+    {
+      "orderID": 4,
+      "orderStatus": "Out for delivery",
+      "pharmacyName": "Admin (avail. Mon-Sat, 9am-5pm)",
+      "orderTotal": 127.32
+    },
+    {
+      "orderID": 5,
+      "orderStatus": "Submitted",
+      "pharmacyName": "Admin (avail. Mon-Sat, 9am-5pm)",
+      "orderTotal": 37.32
+    },
+    {
+      "orderID": 6,
+      "orderStatus": "Cancelled",
+      "pharmacyName": "Admin (avail. Mon-Sat, 9am-5pm)",
+      "orderTotal": 127.32
+    },
+    {
+      "orderID": 7,
+      "orderStatus": "Delivered",
+      "pharmacyName": "Admin (avail. Mon-Sat, 9am-5pm)",
+      "orderTotal": 127.32
+    }
+  ]
