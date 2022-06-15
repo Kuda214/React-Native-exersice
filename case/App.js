@@ -1,12 +1,12 @@
 // In App.js in a new project
 
 import * as React from 'react';
-import { StyleSheet,View, Text,SafeAreaView,StatusBar } from 'react-native';
+import { StyleSheet,View, Text,SafeAreaView,StatusBar,Image } from 'react-native';
 import { Ionicons } from 'react-native-vector-icons';
 import { NavigationContainer, useNavigation } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { iconn } from './assets/icon.png'
+import { logo } from './assets/logo.png'
 
 import { HomeScreen } from './screens/Home';
 import {OrderScreen} from './screens/Orders';
@@ -26,14 +26,17 @@ function App() {
       >
         <Stack.Screen name ="Home"   component={HomeScreen} 
          options={{
-            tabBarLabel: 'Home',
+            tabBarLabel: 'Homme',
             tabBarIcon: ({ color, size }) => (
               <Ionicons name="ios-home" color={color} size={size} />
             ),  
             headerLeft: () => (
               <View>
                 <Ionicons name= "ios-arrow-back" style={styles.headerBackStyle} size={25}/> 
-                <ion-img src="./assets/icon.png"></ion-img>
+                {/* <Image
+                style={styles.logoStyle}
+                  source={require('./assets/logo.png')}
+                /> */}
               </View>
             ),
             headerTitle :() => (
@@ -102,10 +105,13 @@ const styles = StyleSheet.create({
   headerBackStyle:
   {
     marginLeft:'8%',
-    // paddingLeft:1,
-  
-    
+
     },
+  logoStyle:
+  {
+   width:50,
+   height:50, 
+  }
 
 });
 
