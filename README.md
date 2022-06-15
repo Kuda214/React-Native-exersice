@@ -1,11 +1,12 @@
 # React-Native-exersice
 
-First react-native app ✨. This repo consists of working front-end code , data displayed is read from a local Json file. 
+First react-native 'app/screen' ✨. This repo consists of working front-end code , data displayed is read from a local Json file. 
 
-UI Gif: 
+## UI short video: 
 
 
-https://user-images.githubusercontent.com/62636817/173881085-9b459476-3f34-49b6-a798-30bbc2c6cfb7.mp4
+
+https://user-images.githubusercontent.com/62636817/173881732-428c99d3-1e22-4793-b1b1-b4d8cc7b6532.mp4
 
 
 
